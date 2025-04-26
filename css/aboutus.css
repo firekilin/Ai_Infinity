@@ -1,0 +1,224 @@
+.about_story {
+    margin-left: 5%;
+    width: 90%;
+}
+@keyframes story_1 {
+  from { width: 0 ;}
+0%{ opacity:100;}
+100%{ opacity:100;}
+}
+
+@keyframes typing {
+  50% {border-color: black;}
+  
+}
+
+
+div[class^="story"] {
+    height: 25px;
+
+}
+.about_story>div {
+    animation: story_1,typing;
+}
+.story.p1 {
+    animation-fill-mode: forwards;
+    opacity:0;
+    word-spacing: normal;
+    border-right: #ffffff00 .05em solid;
+    margin-left: calc(50% - 4em);
+    width: 8em;
+    overflow: hidden;
+    white-space: nowrap;
+    animation-duration: 1s, 1s;
+    animation-timing-function: steps(8, end), steps(1, end);
+    animation-iteration-count: 1, 1;
+    animation-fill-mode : forwards;
+}
+
+.story.p2 {
+  animation-fill-mode: forwards;
+  opacity:0;
+    word-spacing: normal;
+    border-right: #ffffff00 .05em solid;
+    margin-left:calc(50% - 4.5em) ;
+    width:0em;
+    overflow: hidden;
+  white-space: nowrap;
+    animation-delay:1s,1s;
+    animation-duration: 1s, 1s;
+    animation-timing-function: steps(1, end), steps(1, end);
+    animation-iteration-count: 1, 1;
+
+}
+.story.p3 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  border-right: #ffffff00 .05em solid;
+  margin-left: calc(50% - 6.5em);
+  width: 13em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 2s,2s;
+  animation-duration: 2s, 2s;
+  animation-timing-function: steps(13, end), steps(1, end);
+  animation-iteration-count: 1, 1;
+}
+.story.p4 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  word-spacing: normal;
+  border-right: #ffffff00 .05em solid;
+  margin-left: calc(50% - 7.5em);
+  width: 15em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 4s,4s;
+  animation-duration: 2s, 2s;
+  animation-timing-function: steps(15, end), steps(1, end);
+  animation-iteration-count: 1, 1;
+}
+.story.p5 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  word-spacing: normal;
+  border-right: #ffffff00 .05em solid;
+  margin-left: calc(50% - 0em);
+  width: 0em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 6s,6s;
+  animation-duration: 1s, 1s;
+  animation-timing-function: steps(1, end), steps(1, end);
+  animation-iteration-count: 1, 1;
+}
+.story.p6 {
+    animation-fill-mode: forwards;
+    opacity: 0;
+    word-spacing: normal;
+    border-right: #ffffff00 .05em solid;
+    margin-left: calc(50% - 5em);
+    width: 10em;
+    overflow: hidden;
+    white-space: nowrap;
+    animation-delay: 7s,7s;
+    animation-duration: 2s, 2s;
+    animation-timing-function: steps(10, end), steps(1, end);
+    animation-iteration-count: 1, 1;
+}
+.story.p7 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  word-spacing: normal;
+  border-right: #ffffff00 .05em solid;
+  margin-left: calc(50% - 5.5em);
+  width: 11em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 9s,9s;
+  animation-duration: 2s, 2s;
+  animation-timing-function: steps(11, end), steps(1, end);
+  animation-iteration-count: 1, 1;
+}
+.story.p8 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  word-spacing: normal;
+  border-right: #ffffff00 .05em solid;
+  margin-left: calc(50% - 4.5em);
+  width: 9em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 11s,11s;
+  animation-duration: 2s, 2s;
+  animation-timing-function: steps(9, end), steps(1, end);
+  animation-iteration-count: 1, 1;
+}
+.story.p9 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  word-spacing: normal;
+  border-right: #ffffff00 .05em solid;
+  margin-left: calc(50% - 0em);
+  width: 0em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 13s,13s;
+  animation-duration: 1s, 1s;
+  animation-timing-function: steps(1, end), steps(1, end);
+  animation-iteration-count: 1, 1;
+}
+.story.p10 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  word-spacing: normal;
+  border-right: #ffffff00 .05em solid;
+  margin-left: calc(50% - 2em);
+  width: 4em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 14s,14s;
+  animation-duration: 2s, 2s;
+  animation-timing-function: steps(4, end), steps(1, end);
+  animation-iteration-count: 1, 1;
+}
+.story.p11 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  word-spacing: normal;
+  border-right: #ffffff00 .05em solid;
+  margin-left: calc(50% - 8.5em);
+  width: 17em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 16s,16s;
+  animation-duration: 3s, 3s;
+  animation-timing-function: steps(17, end), steps(1, end);
+  animation-iteration-count: 1, 1;
+}
+.story.p12 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  word-spacing: normal;
+  border-right: #ffffff00 .05em solid;
+  margin-left: calc(50% - 0em);
+  width:0em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 19s,19s;
+  animation-duration: 1s, 1s;
+  animation-timing-function: steps(1, end), steps(1, end);
+  animation-iteration-count: 1, 1;
+}
+.story.p13 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  word-spacing: normal;
+  border-right: #ffffff00 .05em solid;
+  margin-left: calc(50% - 2em);
+  width: 4em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 20s,20s;
+  animation-duration: 2s, 2s;
+  animation-timing-function: steps(4, end), steps(1, end);
+  animation-iteration-count: 1, 1;
+}
+.story.p14 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  font-size:25px;
+  line-height:25px;
+  word-spacing: normal;
+  border-right: #ffffff00 .05em solid;
+  margin-left: calc(50% - 3.5em);
+  width: 7em;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 22s,22s;
+  animation-duration: 0.5s, 1s;
+  animation-timing-function: steps(7, end), steps(1, end);
+  animation-iteration-count: 1, infinite;
+}
+
+
