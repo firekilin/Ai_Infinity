@@ -60,3 +60,33 @@ Ai Infinity 愛無限基金會 — 官網啟動版本 頁面結構簡表
 	•	Email 與聯絡電話（若有）
 	•	社群連結（Instagram、Facebook 等）
 	•	「訂閱我們的愛之信件」（可加上 Newsletter 訂閱欄位）
+
+
+
+At Ai Infinity, giving turns love into connection.
+We link people, resources, and compassion-
+bridging the space between those who need and
+those who are ready to give.
+
+In love, we are limitless.
+In sharing, we expand.
+In expansion, we become light for one another
+
+Picture this: one heart gives, another receives--
+and both expand.
+That's Ai Infinity.
+A love that loops endlessly through sharing,
+presence, and expansion.
+
+Ailnfinity 愛無限基金會|使命宣言
+
+在Ailnfinity,我們相信:付出會讓愛流動,創造連
+結。
+我們把人與資源串連起來,把愛送到真正需要的人手
+因為愛,我們無限延伸。
+因為分享,我們一起成長。
+在成長中,我們變成彼此生命中的一束光。
+
+試著想像:一顆心付出,一顆心接收,而兩者都因此變得更豐盛。
+這就是Ailnfinity--讓愛不斷流動的循環。
+中。

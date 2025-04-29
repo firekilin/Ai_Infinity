@@ -7,6 +7,9 @@ body {
     color: #8B4513;
     text-align: center;
     overflow-x: hidden;
+    background: url(bg.jpg);
+    background-position: center top;
+    background-size: 100vw 100vh;
 }
 
 footer {
