@@ -1,0 +1,63 @@
+.circle-outer {
+    position: relative;
+    width: 15vw;
+    height: 15vw;
+    animation: spin 10s linear infinite;
+  }
+
+  .circleItem {
+    line-height: 20px;
+    text-align: right;
+    position: absolute;
+    height: 7.5vw;
+    left: calc(50% - 10px);
+    top: 0;
+    display: block;
+    transform-origin: bottom;
+    font-size: 20px;
+  }
+
+  /* 動畫 */
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+  .leftBox {
+    min-width: 600px;
+}
+
+.rightBox {
+    padding-top: 50px;
+    min-width: 300px;
+}
+
+.context {
+    margin-top: 50px;
+}
+
+.subTitle::before {
+    content: ">>>>>>>>";
+    display: block;
+    width: 300px;
+    font-size: 50px;
+    line-height: 50px;
+    background: linear-gradient(90deg, #f7b9bc, transparent);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.subTitle::after {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #f7b9bc;
+}
