@@ -1,63 +1,108 @@
 .circle-outer {
-    position: relative;
-    width: 15vw;
-    height: 15vw;
-    animation: spin 10s linear infinite;
-  }
+  min-height: 200px;
+  min-width: 200px;
+  position: relative;
+  width: 15vw;
+  height: 15vw;
+  animation: spin 10s linear infinite;
+}
 
-  .circleItem {
-    line-height: 20px;
-    text-align: right;
-    position: absolute;
-    height: 7.5vw;
-    left: calc(50% - 10px);
-    top: 0;
-    display: block;
-    transform-origin: bottom;
-    font-size: 20px;
-  }
+.circleItem {
+  min-height: 100px;
+  line-height: 20px;
+  text-align: right;
+  position: absolute;
+  height: 7.5vw;
+  left: calc(50% - 10px);
+  top: 0;
+  display: block;
+  transform-origin: bottom;
+  font-size: 20px;
+}
 
-  /* 動畫 */
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(-360deg);
-    }
+/* 動畫 */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(-360deg);
+  }
+}
 
-  .leftBox {
-    min-width: 600px;
+.leftBox {
+  min-width: 600px;
 }
 
 .rightBox {
-    padding-top: 50px;
-    min-width: 300px;
+  padding-top: 50px;
+  min-width: 600px;
 }
 
 .context {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .subTitle::before {
-    content: ">>>>>>>>";
-    display: block;
-    width: 300px;
-    font-size: 50px;
-    line-height: 50px;
-    background: linear-gradient(90deg, #f7b9bc, transparent);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  content: ">>>>>>>>>>>>>>>>>>>>>>>>";
+  display: block;
+  width: 100%;
+  font-size: 50px;
+  line-height: 50px;
+  background: linear-gradient(90deg, #f7b9bc, transparent);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .subTitle::after {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    content: "";
-    display: block;
-    width: 100%;
-    height: 5px;
-    background: #f7b9bc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: #f7b9bc;
+}
+
+.imgbox {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: calc(100% - 20px);
+  height: 80vh;
+  align-content: center;
+  justify-content: center;
+}
+
+.contactImg{
+  position: absolute;
+  height: 100%;;
+}
+
+body {
+  background: linear-gradient(90deg, #fdf5eb 30%, #f7b9bc);
+}
+
+.contactLink {
+  width: 90%;
+  height: 50px;
+  background: #f7b9bc;
+  display: flex;
+  justify-content: space-evenly;
+  transform: rotate(2deg);
+  margin-top: -30px;
+  margin-left: 5%;
+  align-items: center;
+  color: white;
+}
+
+.linkItem::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #ffffff, transparent);
 }
