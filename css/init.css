@@ -8,18 +8,18 @@ footer {
 
 
 .donate-btn {
-    background-color: #ffd1a9;
-    border: 1px solid #ffa07a;
+    background-color: #f7b9bc;
+    border: 1px solid #c9a0a2;
     padding: 10px 20px;
     border-radius: 30px;
     font-size: 1rem;
-    color: #8B4513;
+    color: #ffffff;
     text-decoration: none;
     transition: background 0.3s;
 }
 
 .donate-btn:hover {
-    background-color: #ffc08a;
+    background-color: #eb9599;
 }
 
 .hero {
